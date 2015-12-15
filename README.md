@@ -1,63 +1,483 @@
-ê³¤ì¶©ìŒì‹ í™ë³´ í”„ë¡œì íŠ¸(ì›¹ ê°œë°œ)
---------
-_____
-###ì„œë¡ 
- **í–¥**í›„ 50ë…„ ì´ë‚´ ì¸êµ¬ëŠ” í­ë°œì ì¸ ì¦ê°€ë¥¼ í•  ê²ƒìœ¼ë¡œ ì˜ˆê²¬ë˜ê³  ìžˆë‹¤. ì´ì—ë”°ë¼ ì‹ëŸ‰ë¶€ì¡± ë¬¸ì œë¥¼ í•´ê²°í•˜ê¸° ìœ„í•´ ë§Žì€ ëŒ€ì•ˆë“¤ì´ ì œì‹œë˜ê³ ìžˆë‹¤. ê³¼ê±° ì¸êµ¬ì¦ê°€ëŠ” ë…¹ìƒ‰í˜ëª…ìœ¼ë¡œ ì¸í•˜ì—¬ ë¬´ì‚¬ížˆ ê³ ë¹„ë¥¼ ë„˜ê²¼ì§€ë§Œ, ë†ìž‘ì¸ë“¤ê³¼ ë†ìž‘ì§€ëŠ” ê°ˆìˆ˜ë¡ ê°ì†Œí•˜ê³ ìžˆë‹¤. ë˜í•œ, ì¤‘ì‚°ì¸µì˜ ì¦ê°€ë¡œ ì‚¬ì¹˜ìžì›ì˜ ì†Œë¹„ëŠ” ê³„ì† ëŠ˜ì–´ë‚˜ê³  ìžˆë‹¤. ë³¸ í”„ë¡œì íŠ¸ì—ì„œëŠ” ì œ 3ì°¨ ë…¹ìƒ‰í˜ëª…ì˜ ì£¼ì¸ê³µì€ ê³¤ì¶©ì´ ë  ê²ƒìœ¼ë¡œ ë³´ê³ ì˜ˆê²¬í•˜ê³ , ì´ì— ë”°ë¥¸ í™ë³´ ì›¹ ì œìž‘ì„ ëª©í‘œë¡œ í•˜ê³ ìžˆë‹¤. ê³¤ì¶©ì„ ì‹ëŸ‰ìœ¼ë¡œ ì‚¬ìš© í•˜ëŠ”ë°ì—ëŠ” ë‹¤ìŒê³¼ ê°™ì€ ì´ì ì´ ìžˆë‹¤.
- 
-* ë©”íƒ„ê°€ìŠ¤ ê°ì†Œ(ì¶•ì‚°ë¬¼ ìƒì‚° ê°ì†Œì— ë”°ë¥¸ ë©”íƒ„ê°€ìŠ¤ ê°ì†Œ)
-* ë†ìž‘ì§€ ê°ì†Œ(ê³¤ì¶©ì˜ êµ°ì§‘ì„ ì´ë£¨ëŠ” íŠ¹ì„±ìœ¼ë¡œ ì¸í•˜ì—¬)
-*  ìƒˆë¡œìš´ ë¶€ê°€ê°€ì¹˜ ì°½ì¶œ
+°ïÃæ À½½Ä È«º¸ ¹× Á¤º¸ ±³·ù¸¦ À§ÇÑ À¥ ÆäÀÌÁö Á¦ÀÛ
+===================
+ÃÖÁ¾ º¸°í¼­
+-------------
+Korea Tech
+ÄÄÇ»ÅÍ½Ã½ºÅÛ±âÃÊ¼³°è
+14Á¶(ÀÓÀ»¿µ, ±ÇµµÇü)
 
 
 ----------
-###ë³¸ë¡ 
-**ë‹¤**ìŒê³¼ ê°™ì€ ì»¨í…ì¸ ë¥¼ ê°€ì§„ë‹¤.
- 1. edible insects DB ì œê³µ
- 2. ì‚¬ìš©ìž ì°¸ì—¬ ê²Œì‹œíŒ
- 3. ê³¤ì¶© ìŒì‹ ë°°í‹€
- 4. ë§›ì§‘ ì†Œê°œ
- 5. ë ˆë²¨ ì—… ê¸°ëŠ¥
+
+
+°³¿ä
+-------------
+edible insects¿¡ ´ëÇÑ È«º¸ À¥ »çÀÌÆ® ±¸Ãà °úÁ¦´Â ÃÖÁ¾ »ç¿ëÀÚÀÎ ¿ä¸® Àü¹®°¡µé ¹× ÀÏ¹ÝÀÎµéÀÇ Á¤º¸ ±³·ù¿Í Á¤º¸ ÃëµæÀ» À§ÇÑ ÇÃ·§ÆûÀÌ µÇ´Â À¥ ÆäÀÌÁö Á¦ÀÛ
+#### <i class="icon-file"></i> ÇÊ¿ä¼º
+> - 2050³â±îÁö ¼¼°è ÀÎ±¸ ¿¹»óÄ¡´Â 90¾ïÀÌ´Ù. ÀÌµéÀ» ¸ðµÎ ¸ÔÀÌ±â À§ÇØ¼± ½Ä·®»ý»êÀÌ °öÀý·Î ´Ã¾î¾ß ÇÑ´Ù´Â Åë°è°¡ ³ª¿Â´Ù. Áö±Ýµµ 10¾ï¸íÀÇ »ç¶÷µéÀÌ ½Ä·® ºÎÁ· ¹®Á¦·Î ±¾ÁÖ¸®°í ÀÖ´Â »óÈ²ÀÌ´Ù. 
+> - ¼Ò°í±â 1kgÀ» »ý»êÇÏ±â À§ÇØ ÇÊ¿äÇÑ °î¹°ÀÇ ¾çÀÌ 10kgÀÌ´Ù. µÅÁö°í±â 1kgÀ» ¾ò±â À§ÇØ¼± 5kgÀÇ °î¹°ÀÌ ÇÊ¿äÇÏ´Ù. ±×·¯³ª °ïÃæ °í±â¸¦ ¾ò±â À§ÇØ¼± ´ÜÁö 1.7kgÀÇ °î¹°ÀÌ ÇÊ¿äÇÒ »ÓÀÌ´Ù. ÀÌ°ÍÀÌ ¹Ì·¡ ½Ä·® ÀÚ¿øÀ¸·Î¼­ °ïÃæÀ» ¸Ô¾î¾ß ÇÒ ÁÖ¿äÇÑ ÀÌÀ¯ÀÌ´Ù. °Ô´Ù°¡ ¿Â½ÇÈ¿°úÀÇ ÁÖ¹üÀÎ Àü¼¼°è ¸ÞÅº ¹èÃâ·®ÀÇ 37%°¡ °¡Ãà(domestic animals)¿¡¼­ ¹ß»ýÇÑ´Ù. ¹Ý¸é °ïÃæÀÇ CO2 ¹èÃâ·®Àº ±ØÈ÷ µå¹°´Ù. ¼Ò°í±â¿£ 50%ÀÇ ´Ü¹éÁúÀÌ ÀÖÀ¸¸ç ±× ¿ÜÀÇ Áö¹æÁú µîÀ¸·Î ÀÌ·ç¾îÁø °íÁö¹æ ½ÄÇ°ÀÌ´Ù. ¹Ý¸é °ïÃæ °í±â´Â ´Ü¹éÁúÀÌ ´ëºÎºÐÀÌ´Ù. ´õºÒ¾î ºñÅ¸¹Î, Ã¶ºÐ, ¾Æ¿¬ µîÀÌ Ç³ºÎÇÏ´Ù. »ç¶÷µéÀÇ Æí°ß°ú´Â ´Þ¸® °ïÃæÀº ÀÎÃ¼¿¡ Ä¡¸íÀûÀÎ º´¿ø±ÕÀ» °®°í ÀÖÁö ¾Ê¾Æ ¼Ò, °³, µÅÁöº¸´Ùµµ ´ú ÇØ·Ó´Ù°í ÇÑ´Ù. ÀÎ°£ÀÌ ¼·Ãë °¡´ÉÇÑ °ïÃæÀÇ Á¾·ù´Â 1900Á¾ÀÌ´Ù. ±×·¯³ª °ïÃæÀ» ¸Ô´Â ³ª¶ó´Â ¾Æ½Ã¾Æ¿Í ¾ÆÇÁ¸®Ä« Áö¿ª¿¡ ±¹ÇÑµÇ¾î ÀÖÀ¸¸ç »ó´ëÀûÀ¸·Î À¯·´°ú ¸ß½ÃÄÚ¸¦ Á¦¿ÜÇÑ ¾Æ¸Þ¸®Ä« ´ë·ú, ¾Æ½Ã¾Æ Áö¿ª Áß ÇÑ±¹°ú ·¯½Ã¾Æ Áö¿ªÀº ¿¹¿ÜÀûÀ¸·Î °ïÃæ ¼Òºñ°¡ ³·´Ù. °ïÃæ¿¡ ´ëÇÑ ¸·¿¬ÇÑ ÀÎ½Ä ÀÌ¸¦ Å×¸é ¸ÀÀÌ ¾øÀ» °ÍÀÌ¶ó´Â ÀÎ½ÄÀÌ Áö¹èÀûÀÌ±â ¶§¹®À¸·Î º¸ÀÎ´Ù. ±×·¯³ª °ïÃæÀÌ ¸ÀÀÌ ¾ø´Ù´Â °ÍÀº ½ÇÁ¦·Î´Â ¸ÂÁö ¾ÊÀ¸¸ç °ïÃæ¿¡ ´ëÇÑ ¿ä¸®¹ýÁ¶Â÷µµ ¾ø´Ù´Â °ÍÀº »ç¶÷µé¿¡°Ô °ïÃæÀÌ ½Ä·®À¸·Î¼­ º¸ÀÌ±â¿¡ ´õ¿í ¾î·Æ°Ô ¸¸µç´Ù. Â÷¼¼´ë ¹Ì·¡ ½Ä·®À¸·Î½á °ïÃæÀ» È°¿ëÇÏ±â À§ÇÑ ¿ä¸®¹ýÀ» ¿ä¸® °ü·Ã Àü¹®°¡µéÀÌ °ïÃæÀÌ¶ó´Â »ö´Ù¸¥ Àç·á¿¡ ´ëÇÑ °ü½ÉÀ» °¡Áú ¼ö ÀÖ°Ô ÇÒ ÇÊ¿ä°¡ ÀÖ´Ù.
+> - ±¹¿Ü¿¡¼± ÀÌ¹Ì °ïÃæ¿¡ ´ëÇÑ Á¤º¸¸¦ Á¦°øÇÏ¸ç È«º¸¸¦ ÇÏ´Â À¥ »çÀÌÆ®°¡ ÀÖÁö¸¸, ±¹³»¿£ Àü¹«ÇÑ »óÅÂ´Ù.
+
+
+#### <i class="icon-file"></i> Á¾·¡±â¼ú
+> -  ±¹¿Ü¿¡¼­´Â °ïÃæ À½½ÄÀÌ ÀÌ¹Ì ½Ä·® ´ë¾ÈÀ¸·Î °¢±¤À» ¹Þ°í ÀÖ°í ÇöÀç È°¹ßÇÑ Á¤º¸±³·ù°¡ ÀÌ·ç¾î Áö°í ÀÖ´Ù. 
+> -   Girl meets bug(https://edibug.wordpress.com/)¿¡¼­´Â ºí·Î±× Çü½ÄÀÇ À¥ ÆäÀÌÁö·Î °³ÀÎÀÌ ¸¸µç °ïÃæ ¿ä¸®³ª °ü·Ã ±â»çµéÀ» Æ÷½ºÆ® ÇÑ´Ù. »ó±â À¥ ÆäÀÌÁöÀÇ ¹®Á¦Á¡Àº ºí·Î±× Çü½ÄÀÇ À¥ ÆäÀÌÁö·Î ÀÏ ¹æÇâ ÀûÀÎ Á¤º¸Á¦°ø°ú »ç¿ëÀÚ Âü¿©µµ°¡ ³·´Ù´Â °ÍÀÌ´Ù. µû¶ó¼­ ÁøÁ¤ÇÑ °ïÃæ Á¤º¸ ±³È¯ÀÇ ÇÃ·§ÆûÀ¸·Î »ç¿ëµÇ±â¿£ ¸¹Àº ºÎÁ·ÇÔÀÌ ÀÖ¾î º¸ÀÎ´Ù.
+> -   ±¹¿Ü ºñ¿µ¸®´ÜÃ¼ÀÎ fao(http://www.fao.org/forestry/edibleinsects/en/)¿¡¼­µµ ¸ÔÀ» ¼ö ÀÖ´Â °ïÃæ¿¡ ´ëÇÑ ¼öÁØ ³ôÀº Á¤º¸¸¦ Á¦°øÇÏ°í ÀÖ´Ù. 1900¿©Á¾ÀÇ ¸ÔÀ» ¼ö ÀÖ´Â °ïÃæ DBÁ¦°ø°ú °ü·Ã ±â»ç¸¦ Á¦°øÇÑ´Ù. ÇÏÁö¸¸ »ó±â À¥ ÆäÀÌÁö fao ¶ÇÇÑ, ÀÏ ¹æÇâ ÀûÀÎ Á¤º¸ Á¦°øÀ¸·Î »ç¿ëÀÚÀÇ Âü¿©µµ°¡ ¸Å¿ì ³·Àº ½ÇÁ¤ÀÌ´Ù. ¹«¾ùº¸´Ùµµ, ¿µ¹® ÆäÀÌÁö·Î ÇÑ±¹ »ç¿ëÀÚµéÀÌ ÀÌ¿ëÇÏ±â¿¡´Â ¸Å¿ì Èûµé °ÍÀ¸·Î »ý°¢ÇÑ´Ù.
+
+#### <i class="icon-file"></i> ¹®Á¦ ÇØ°á ¼ö´Ü
+> - »ó±â¿¡ Á¦½ÃµÈ Á¾·¡±â¼úÀÇ ¹®Á¦Á¡À» ÇØ°áÇÏ±â À§ÇØ »ç¿ëÀÚ°¡ Á¤º¸ Á¦°øÀÚ°¡ µÇ´Â °ïÃæ ¿ä¸® È«º¸ ¹× Á¤º¸±³·ù¸¦ À§ÇÑ ÇÃ·§ÆûÀÌ µÇ´Â À¥ ÆäÀÌÁö¸¦ Á¦°øÇÑ´Ù.
+
+#### <i class="icon-file"></i> ±â´ë È¿°ú
+> - º» ½Ã½ºÅÛ °á°ú·Î »ç¿ëÀÚ´Â Á¤º¸ ÀÌ¿ëÀÚ°¡ µÇ´Â µ¿½Ã¿¡ Á¤º¸ Á¦°øÀÚ°¡ µÇ°í ¸¹Àº ÄÁÅÙÃ÷¸¦ Á¦°øÇÏ¿© ¸¹Àº »ç¿ëÀÚµéÀ» ²ø¾î µéÀÏ ¼ö ÀÖÀ» °ÍÀ¸·Î ¿¹»óµÇ¸ç, °ïÃæ À½½Ä¿¡ ´ëÇÑ Á¤º¸±³·ù¿Í È«º¸¿¡ ¸¹Àº È¿°ú¸¦ ¾òÀ» ¼ö ÀÖÀ» °ÍÀ¸·Î »ý°¢ÇÑ´Ù.
+
+----------
+
+¿ä±¸»çÇ× Á¤ÀÇ
+-------------
+#### <i class="icon-file"></i> »ç¿ëÀÚ ¿ä±¸»çÇ× Á¤ÀÇ
+
+> - 	ÇÑ±¹¾î·Î Á¦°øµÇ´Â À¥ »çÀÌÆ®ÀÌ¾î¾ß ÇÑ´Ù.
+> - 	»ç¿ëÀÚ¿¡°Ô ¿øÇÏ´Â °¡Àå ÃÖ½Å Á¤º¸°¡ ½±°Ô ³ëÃâµÇ¾î¾ß ÇÑ´Ù.
+> - 	°ïÃæ À½½ÄµéÀÇ ´Ù¾çÇÑ Á¤º¸°¡ Á¦°øµÇ¾î¾ß ÇÑ´Ù.
+> - 	°ïÃæ À½½ÄÀÇ ´Ù¾çÇÑ ¸ÀÁýµéÀÌ ¼Ò°³ µÇ¾î¾ß ÇÑ´Ù.
+> - 	È°¹ßÇÑ È°µ¿¿¡ ´ëÇÑ º¸»óÀÌ ÀÖ¾î¾ß ÇÑ´Ù.
+> - 	´Ù¸¥ »ç¿ëÀÚµé°ú È°¹ßÇÑ ±³·ù°¡ ÀÌ·ç¾î Á®¾ß ÇÑ´Ù.
+> - 	¸ÔÀ» ¼ö ÀÖ´Â °ïÃæ¿¡ ´ëÇÑ DB°¡ Á¦°øµÇ¾î¾ß ÇÑ´Ù.
+
+
+#### <i class="icon-file"></i> ½Ã½ºÅÛ ¿ä±¸»çÇ× Á¤ÀÇ
+> - 	À¥ ÆäÀÌÁö´Â ÇÑ±¹¾î·Î Á¦°øÇÑ´Ù.
+> - 	»ç¿ëÀÚ°¡ ¿øÇÏ´Â ÃÖ½Å Á¤º¸¸¦ Á¦°øÇÒ ¼ö ÀÖµµ·Ï ÃßÃµ ¼ö°¡ ³ôÀº °Ô½Ã¹°Àº ÃßÃµ °Ô½ÃÆÇÀ¸·Î ÀÌµ¿½ÃÄÑ Àç °³½ÃÇÑ´Ù.
+> - 	°ïÃæÀ½½ÄµéÀÇ ´Ù¾çÇÑ Á¤º¸°¡ Á¦°øµÉ ¼ö ÀÖµµ·Ï °ü·Ã ´º½ºµéÀ» ¹ø¿ªÇÑ °Ô½ÃÆÇÀ» Á¦°øÇÑ´Ù.
+> - 	°ïÃæ À½½ÄÀÇ ´Ù¾çÇÑ ¸ÀÁýµéÀÌ ¼Ò°³µÉ ¼ö ÀÖµµ·Ï ¸ÀÁý ¼Ò°³ °Ô½ÃÆÇÀ» Á¦°øÇÑ´Ù.
+> - 	È°¹ßÇÑ È°µ¿¿¡ ´ëÇÑ º¸»óÀ¸·Î ·¹º§ Ã¼°è¸¦ Á¦°øÇÑ´Ù.
+> - 	´Ù¸¥ »ç¿ëÀÚµé°ú È°¹ßÇÑ ±³·ù¸¦ À§ÇÏ¿© °ïÃæ ¿ä¸® ´ëÈ¸¸¦ °³ÃÖÇÑ´Ù.
+> - 	´Ù¸¥ »ç¿ëÀÚµé°ú È°¹ßÇÑ ±³·ù¸¦ À§ÇÏ¿© °Ô½Ã±Û¿¡ µ¡±ÛÀ» ´Þ ¼ö ÀÖ°Ô ÇÑ´Ù.
+> - 	¸ÔÀ» ¼ö ÀÖ´Â °ïÃæÀÇ DB¸¦ Á¦°øÇÏ´Â ÆäÀÌÁö¸¦ Á¦ÀÛÇÑ´Ù.
+
+----------
+
+½Ã½ºÅÛ »ó¼¼ ¼³°è
+-------------
+#### <i class="icon-file"></i> ½Ã½ºÅÛ ±¸Á¶
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-XVHBaLBHBNA/Vmq_AUyCp8I/AAAAAAAAESg/cWqF_l6lEuQ/s1600/0.PNG)
+>- °ïÃæ À½½Ä È«º¸¸¦ ¹× Á¤º¸±³·ù¸¦ À§ÇÑ ÇÃ·§ÆûÀ» Á¦°øÇÏ´Â À¥ ÆäÀÌÁö´Â ÃÑ 5°³ÀÇ ¸ðµâ·Î ±¸¼ºµÇ¾î ÀÖÀ¸¸ç °¢°¢ÀÇ ¸ðµâÀº ¼­·Î ´Ù¸¥ ÄÁÆ®·Ñ·¯ÀÇ Á¦¾î¸¦ ¹Þ´Â´Ù. °ïÃæ À½½Ä ¹èÆ² ¸ðµâÀº »ç¿ëÀÚµéÀÌ ¼­·ÎÀÇ °ïÃæ ·¹½ÃÇÇ¸¦ °Ô½ÃÇÏ¿© ÃßÃµ ¼ö·Î ´ë°áÀ» ÇÏ´Â ÀÏÁ¾ÀÇ °Ô½ÃÆÇÀÌ´Ù. °ïÃæ À½½Ä ¸ðµâÀº 1900¿©°³ÀÇ ¸ÔÀ» ¼ö ÀÖ´Â °ïÃæ¿¡ ´ëÇÑ µ¥ÀÌÅÍ¸¦ Á¦°øÇÑ´Ù. ¹Ìµð¾î °Ô½ÃÆÇÀº »ç¿ëÀÚµéÀÌ °ü·Ã ´º½º¿Í µ¿¿µ»ó µîÀ» °Ô½ÃÇÏ¸ç Á¤º¸¸¦ ±³·ùÇÏ´Â ¸ðµâÀÌ´Ù. ¸ÀÁý ¼Ò°³ ¸ðµâÀº °ïÃæ À½½ÄÀÇ ¸ÀÁýÀ» ¼Ò°³ÇÏ´Â ÆäÀÌÁöÀÌ´Ù. ¼­¹ö ¸ðµâÀº »ç¿ëÀÚµéÀÇ ·¹º§ µî°ú °°Àº »ç¿ëÀÚÀÇ Á¤º¸¸¦ °ü¸®ÇÏ´Â ¸ðµâ°ú °Ô½ÃÆÇÀÇ ±Û Á¤º¸ µîÀÇ µ¥ÀÌÅÍ¸¦ °ü¸®ÇÏ´Â °Ô½ÃÆÇ µ¥ÀÌÅÍ °ü¸® ¸ðµâ·Î ±¸¼ºµÈ ¸ðµâÀÌ´Ù.
+#### <i class="icon-file"></i> °ïÃæ DB
+°ïÃæ DB´Â 1900°³ÀÇ ¸ÔÀ» ¼ö ÀÖ´Â °ïÃæµé¿¡ ´ëÇÑ µ¥ÀÌÅÍ ¸®½ºÆ®¸¦ Á¦°øÇÏ´Â ¸ðµâÀÌ´Ù. °ïÃæ Á¾·ùº° ÀÌ¸§ º°, ¼­½Ä Áö¿ª º°·Î ÇÊÅÍ ¸µ ÇÏ°í °Ë»öÇÏ´Â ±â´ÉÀ» Á¦°øÇÏ°í Å¬¸¯ÇÏ¸é »ó¼¼ Á¤º¸¸¦ ¿­¶÷ ÇÒ ¼ö ÀÖ´Ù. »ó¼¼ Á¤º¸¿¡´Â °ïÃæÀÇ Á¾, ¼Ó, °ú, ¼­½Ä Áö¿ª, ÀÌ¸§, description, ºñ°í, »ý ±×¸®°í ÀÌ¹ÌÁö µîÀÇ Á¤º¸¸¦ Á¦°øÇÑ´Ù. ·¹½ÃÇÇ°¡ Á¸ÀçÇÏ´Â °ïÃæÀÌ¶ó¸é ¸µÅ© ÁÖ¼Ò¸¦ ÇÏÀÌ¶óÀÌÆ® ÇÏ¿© ´õ ¸¹Àº Á¶È¸¼ö¸¦ ¿Ã¿Ã ¼ö ÀÖ´Â ±â´ÉÀ» Á¦°øÇÑ´Ù. 
+
+> **°³¿ä:**
+> 
+>- °ïÃæ DBÀÇ ¸ðµâÀº ¾Æ·¡¿Í °°Àº ±¸Á¶¸¦ °¡Áø´Ù.
+
+> **Figure 2°ïÃæ DB ±¸Á¶:**
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-K4yr31d0YzA/VmrBiA3PZfI/AAAAAAAAESs/aQHJEN1XD-U/s1600/1.PNG)
+
+> **Èå¸§µµ:**
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-Sqhn37uTxUE/Vmq-rYgyd7I/AAAAAAAAERQ/SOxdE1kbJrc/s1600/2.PNG)
+
+> - SQL ¼­¹ö´Â ¿äÃ»¿¡ ´ëÇÑ ÀÀ´äÀ¸·Î DB ÆÄÀÏÀ» Àü¼ÛÇÑ´Ù.
+> - DB-> Json converter´Â ÀÌ ÆÄÀÏÀ» JSON ÆÄÀÏÇü½ÄÀ¸·Î ´Ù½Ã ÀÛ¼ºÇÑ ÈÄ À¥¿¡ Ãâ·ÂÇÑ´Ù.
+> - »ç¿ëÀÚ¿¡°Ô µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÑ ÈÄ ÀÔ·ÂÀ» ¹Þ´Â´Ù.
+> - °ïÃæÀÌ¸§¿¡ ¿¬°áµÈ Link¸¦ ´©¸£¸é °ïÃæ »ó¼¼ µð½ºÅ©¸³¼Ç ÆäÀÌÁö·Î ³Ñ¾î°£ ÈÄ µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÑ´Ù.
+> - ´Ù¸¥ ¸ðµâÀÇ UrlÀ» Å¬¸¯ÇÏ¸é ´Ù¸¥ ÆäÀÌÁö·Î ³Ñ¾î°¡ ±× ¸ðµâÀÇ Á¦¾î¸¦ ¹Þ´Â´Ù.
+
+**ÀÎÅÍÆäÀÌ½º:**
+
+Get_insects_db_sumarry()
+
+>- ÇÔ¼ö Á¤ÀÇ
+Def Get_insects_db_sumarry ();
+
+>- ¼³¸í
+¼­¹ö¿¡ °ïÃæ DB list¸¦ ¿äÃ»ÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-LuGZ2WBk5Wg/VmrBkxp1szI/AAAAAAAAET8/MLVut7qwwvo/s1600/2.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-izuRr1Uuc7o/VmrBnhzyWWI/AAAAAAAAEU0/YHRfxb1TXJA/s1600/3.PNG)
+
+Convert_to_json()
+
+>- ÇÔ¼ö Á¤ÀÇ
+Def Conver_to_json(raw_db_file)
+
+>- ¼³¸í
+¼­¹ö¿¡¼­ º¸³»¿Â DB¸¦ json ÆÄÀÏ·Î º¯È¯ÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-DzsoOvyDY4c/VmrBqIdeFVI/AAAAAAAAEV8/l488lTCs61A/s1600/4.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-0bpFWreEhDk/VmrBrKy7ZCI/AAAAAAAAEWg/hNzAezI9VHw/s1600/5.PNG)
+
+
+Print_data()
+>- ÇÔ¼ö Á¤ÀÇ
+Def print_data(Json_list)
+
+>- ¼³¸í
+Json ÆÄÀÏÀ» ½Ã°¢ÀûÀ¸·Î Ãâ·ÂÇÏ±â À§ÇÑ ÇÔ¼ö. µ¥ÀÌÅÍ¸¦ ¿¹»Ú°Ô Ãâ·ÂÇÑ´Ù.
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-LVY0KwIqn84/VmrBrXqugZI/AAAAAAAAEWk/_kYH9ivodfY/s1600/6.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-zZ4UICXGDns/VmrBrYE3y5I/AAAAAAAAEWo/mx-CB5uH4c0/s1600/7.PNG)
+
+
+Route_Url()
+>- ÇÔ¼ö Á¤ÀÇ
+Def route_url(url)
+
+>- ¼³¸í
+»ç¿ëÀÚ ÀÔ·Â¿¡ µû¸¥ ¶ó¿ìÆÃ ±â´É Á¦°ø. »ó¼¼ µð½ºÅ©¸³¼ÇÀÌ³ª ´Ù¸¥ ¸ðµâ·Î ¶ó¿ìÆÃ±â´É Á¦°ø
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-JA14m_9tOP8/VmrBrrnGWcI/AAAAAAAAEWw/wOXSjKkdn8E/s1600/8.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-9Sz1fIJmjB8/VmrBr_aSOWI/AAAAAAAAEW0/nOrDL8snCT8/s1600/9.PNG)
+
+
+Get_insects_db_detail()
+>- ÇÔ¼ö Á¤ÀÇ
+Def Get_insects_db_detail (index)
+
+>- ¼³¸í
+°ïÃæ µ¥ÀÌÅÍ º£ÀÌ½º ¿äÃ»
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-OIk34UG242U/VmrBiCeSxJI/AAAAAAAAES0/RpWbusssdlQ/s1600/10.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-XCkYmatyT4c/VmrBiL4FmSI/AAAAAAAAESw/zdTIeK8Hs_o/s1600/11.PNG)
 
 
 
+Route_to_other_modules()
+>- ÇÔ¼ö Á¤ÀÇ
+Def Route_to_other_modules (url)
 
-**edible insects DB**
-ì „ ì„¸ê³„ì˜ 1900ì—¬ì¢…ì˜ ë¨¹ì„ ìˆ˜ ìžˆëŠ” ê³¤ì¶©ì— ëŒ€í•œ DBë¥¼ ì œê³µí•œë‹¤. ê³¤ì¶© ì„œì‹ì§€, ë¨¹ì„ìˆ˜ ìžˆëŠ” ë¶€ìœ„ë“±ì˜ ì •ë³´ë¥¼ ì œê³µí•œë‹¤. 
+>- ¼³¸í
+´Ù¸¥ ¸ðµâ·Î ¶ó¿ìÆÃ ÇÏ´Â ÇÔ¼ö
 
-DBì •ë ¬ê¸°ëŠ¥, Search ê¸°ëŠ¥, Filtering ê¸°ëŠ¥ìœ¼ë¡œ ë°ì´í„°ë¥¼ ì‰½ê²Œ ì°¾ì„ ìˆ˜ ìžˆê²Œ í•¨.
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-0XaXYlcuQ2o/VmrBiskGs-I/AAAAAAAAES4/Q9kgTyrqg_Q/s1600/12.PNG)
 
-**ì‚¬ìš©ìž ì°¸ì—¬ ê²Œì‹œíŒ**
-ì‚¬ìš©ìžì˜ ì°¸ì—¬ë¥¼ ìœ ë„í•˜ê¸° ìœ„í•œ ì°¸ì—¬ ê²Œì‹œíŒìœ¼ë¡œ ë‹¤ìŒê³¼ ê°™ì€ ê²Œì‹œíŒë“¤ë¡œ êµ¬ì„±ë˜ ìžˆë‹¤.
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-2jpZcbs5R7U/VmrBi-_kRPI/AAAAAAAAES8/yTT3ElGgtto/s1600/13.PNG)
 
- 1. ê³¤ì¶© ìŒì‹ ë ˆì‹œí”¼
- 2. ë¯¸ë””ì–´ ê²Œì‹œíŒ
- 3. ì¶”ì²œ ê²Œì‹œíŒ
 
-**ê³¤ì¶© ìŒì‹ ë ˆì‹œí”¼**
-ê³¤ì¶© ìŒì‹ì˜ ë ˆì‹œí”¼ë¥¼  ê³µìœ í•˜ëŠ” ê²Œì‹œíŒì´ë‹¤.  ì‚¬ìš©ìžëŠ” ë„ì›€ì´ ë˜ëŠ” ê²Œì‹œê¸€ì— ì¶”ì²œì„ í•  ìˆ˜ ìžˆìœ¼ë©°, ì¼ì •ìˆ˜ ì´ìƒì˜ ì¶”ì²œì„ ë°›ì€ ê²Œì‹œê¸€ì€ ì¶”ì²œ ê²Œì‹œíŒìœ¼ë¡œ ì˜´ê²¨ì§„ë‹¤. 
+#### <i class="icon-file"></i> ¹Ìµð¾î °Ô½ÃÆÇ
+¹Ìµð¾î °Ô½ÃÆÇÀº °ïÃæÀÇ ·¹½ÃÇÇ³ª °¢Á¾ ÀÌ½´µé¿¡ ´ëÇÑ Á¤º¸±³·ù¸¦ ¸ñÀûÀ¸·Î ÇÏ´Â ÀÏÁ¾ÀÇ °Ô½ÃÆÇÀÌ´Ù. ·Î±×ÀÎÇÑ »ç¿ëÀÚ´Â ±ÛÀ» °Ô½ÃÇÒ ¼ö ÀÖÀ¸¸ç, ÀÚ½ÅÀÇ ±ÛÀ» ¼öÁ¤ ¹× »èÁ¦ÇÒ ¼ö ÀÖ´Ù. ¶ÇÇÑ Å¸ÀÎÀÇ ±ÛÀ» ÃßÃµÇÒ ¼ö ÀÖ´Â ±â´ÉÀÌ ÀÖ´Ù. ÃßÃµ¼ö°¡ ³ôÀº ±ÛÀº ÃßÃµ°Ô½ÃÆÇÀ¸·Î ¿Å°ÜÁø´Ù. ¹Ìµð¾î°Ô½ÃÆÇÀº ·¹½ÃÇÇ °Ô½ÃÆÇ°ú, ´º½º ¹× µ¿¿µ»ó °Ô½ÃÆÇÀ¸·Î ±¸¼ºµÇ¾î ÀÖ´Ù. °Ô½ÃÆÇÀº ´©±¸³ª Á¢±Ù ÇÒ ¼ö ÀÖ´Ù. 
 
-**ë¯¸ë””ì–´ ê²Œì‹œíŒ**
-ê³¤ì¶© ìŒì‹ í™ë³´ë¥¼ ìœ„í•œ ê°ì¢… ê²Œì‹œê¸€ì„ ì˜¬ë¦¬ëŠ” ê³µê°„ì´ë‹¤. í•´ì™¸ ë‰´ìŠ¤ë²ˆì—­, í™ë³´ ë™ì˜ìƒë“±ì„ ê³µìœ í•œë‹¤. ì¼ì • ìˆ˜ ì´ìƒì˜ ì¶”ì²œìˆ˜ë¥¼ ë°›ìœ¼ë©´ ê²Œì‹œê¸€ì´ ì¶”ì²œê²Œì‹œíŒìœ¼ë¡œ ìžë™ìœ¼ë¡œ ì˜´ê²¨ì§„ë‹¤.
+> **°³¿ä ¹× Èå¸§:**
+> 
+> **Figure 4 ¹Ìµð¾î °Ô½ÃÆÇ ±¸Á¶ ¹× µ¥ÀÌÅÍ Èå¸§**
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-KhfvVZtgFRw/Vmq-rT1imBI/AAAAAAAAERU/c1K0l5l-NP4/s1600/3.PNG)
 
-**ê³¤ì¶© ìŒì‹ ë°°í‹€**
-ì € ë§ˆë‹¤ì˜ ê³¤ì¶© ìŒì‹ìœ¼ë¡œ ì°¸ê°€ë¥¼ í•˜ì—¬ ì„¸ê³„ ì¼ë¯¸ì˜ ê³¤ì¶© ìš”ë¦¬ì™•ì„ ì„ ë°œí•˜ëŠ” ê³µê°„ì´ë‹¤. í† ë„ˆë¨¼íŠ¸ í˜•ì‹ì´ë©°, ì°¸ê°€ìžë“¤ì€ ì‹ ì²­ì„ í•˜ê³  ë‚œ í›„ì— ì°¸ê°€ í•  ìˆ˜ ìžˆë‹¤. ì¶”ì²œìˆ˜ë¡œ ëŒ€íšŒì˜ ìŠ¹ìžê°€ ê²°ì •ë‚œë‹¤.
+> - °Ô½Ã±Û µ¥ÀÌÅÍ¸¦ ¿äÃ»(get_board_summary()) ¹ÞÀº DB ¼­¹ö´Â °Ô½ÃÆÇ Á¤º¸¿¡ ´ëÇÑ µ¥ÀÌÅÍ(±Û¹øÈ£, Á¶È¸¼ö, Á¦¸ñ, ÀÛ¼ºÀÚ, ÃßÃµ¼ö)¸¦ Àü¼ÛÇÑ´Ù.
+> - SQL -> Json ÆÄÀÏ ÄÁ¹öÅÍ´Â DBÆÄÀÏÀ» JsonÆÄÀÏ·Î ÄÁ¹öÆÃ(conver_to_json()) ÇÑ´Ù.
+°Ô½Ã±Û ¸®½ºÆ®¸¦ Ãâ·ÂÇÑ ÈÄ(Print_data()) »ç¿ëÀÚ ÀÔ·ÂÀ» ¹Þ¾Æ ´ÙÀ½ Çàµ¿À» ´ë±âÇÑ´Ù.
+> - °Ô½Ã±Û ¸®½ºÆ®¸¦ Å¬¸¯(get_board_detail(index))ÇÏ¸é °Ô½Ã±Û¿¡ ´ëÇÑ »ó¼¼ µð½ºÅ©¸³¼ÇÀ» Ãâ·ÂÇÑ´Ù. ¸¸¾à ÇöÀç »ç¿ëÀÚ¿Í °Ô½ÃÀÚ°¡ µ¿ÀÏÇÏ¸é edit()°ú delet()ÇÔ¼ö¸¦ ½ÇÇàÇÏ´Â ±ÇÇÑÀ» ºÎ¿©ÇÑ´Ù.
+> - Edit()À» ½ÇÇàÇÏ¸é µ¥ÀÌÅÍ¸¦ ¼öÁ¤ÇÒ ¼ö ÀÖÀ¸¸ç ¼öÁ¤ÇÑ µ¥ÀÌÅÍ´Â DB¿¡ º¸³»Áö¸ç ÀÌÈÄ °Ô½Ã±Û »ó¼¼ µð½ºÅ©¸³¼ÇÀ¸·Î ¶ó¿ìÆÃÇÑ´Ù.
+> - Delete()¸¦ ½ÇÇàÇÏ¸é µ¥ÀÌÅÍ¸¦ »èÁ¦ÇÏ°í DB¿¡ ¹Ý¿µ ÈÄ °Ô½Ã±Û ¸®½ºÆ®·Î ¶ó¿ìÆÃÇÑ´Ù.
+·Î±×ÀÎÇÑ »ç¿ëÀÚ´Â ±ÛÀ» ¾µ ¼ö ÀÖ´Ù. 
+> - ´Ù¸¥ ¸ðµâ·Î ¶ó¿ìÆÃ(route_to_other_modues(url))À» ÇÏ¸é ÇØ´ç ¸ðµâ·Î ÀÌµ¿ÇÏ°í, ÇØ´ç ¸ðµâÀÇ Á¦¾î¸¦ ¹Þ°Ô µÈ´Ù.
 
-**ë§›ì§‘ ì†Œê°œ**
-ê³¤ì¶©ì— ê´€í•œ ë§›ì§‘ì„ ì†Œê°œí•´ì¤€ëŠ” ì»¨í…ì¸ .
+**ÀÎÅÍÆäÀÌ½º:**
 
-**ë ˆë²¨ì—… ê¸°ëŠ¥**
-ì‚¬ìš©ìžì˜ ì°¸ì—¬ë¥¼ ìœ ë„í•˜ê¸° ìœ„í•œ ë ˆë²¨ì—… ì»¨í…ì¸ . ë‹¤ìŒê³¼ ê°™ì€ ê²½ìš°ì— ê²½í—˜ì¹˜ë¥¼ ì–»ëŠ”ë‹¤.
+Get_board_summary()
 
- 1. ë¡œê·¸ì¸ ê²½í—˜ì¹˜
- 2. ê²Œì‹œíŒ í™œë™ ê²½í—˜ì¹˜(ë§ê¸€, ì¶”ì²œìˆ˜, ê²Œì‹œ)
+>- ÇÔ¼ö Á¤ÀÇ
+Def get_board_summary()
 
-ë ˆë²¨ì—…ì˜ ë‹¨ê³„ëŠ” ë‹¤ìŒê³¼ ê°™ë‹¤.
-ì´ˆë³´ì¶©-> ì¤‘ìˆ˜ì¶©->ê³ ìˆ˜ì¶©->ì¶©ì™•
+>- ¼³¸í
+DB¼­¹ö¿¡ °Ô½ÃÆÇ ¸®½ºÆ®¿¡ Á¤º¸¸¦ ¿äÃ»ÇÏ´Â ÇÔ¼ö(±Û¹øÈ£, Á¦¸ñ, ±Û¾´ÀÌ, ÃßÃµ¼ö, ³¯Â¥)
 
-ì¶©ì™•ì€ ë§›ì§‘ì„ ì†Œê°œí•  ìˆ˜ ìžˆëŠ” ë§‰ê°•í•œ ê¶Œë ¥ì„ ê°€ì§ˆ ìˆ˜ ìžˆê³ , ê° ë ˆë²¨ë³„ë¡œ ì•„ì´ì½˜ì´ ë‹¬ë¼ì ¸ ì‚¬ìš©ìžì˜ ë ˆë²¨ì—… ìš•êµ¬ ìžê·¹í•œë‹¤.
-________________
-ê²°ë¡ 
-----
-ë¯¸ëž˜ ì‹ëŸ‰ ìžì›ì¸ ê³¤ì¶©ì„ í™ë³´í•˜ëŠ” ì›¹ íŽ˜ì´ì§€ë¥¼ ì œìž‘í•¨ìœ¼ë¡œì¨ ê³¤ì¶©ìŒì‹ì— ëŒ€í•œ ì¸ì‹ë³€í™”ë¥¼ ê¸°ëŒ€í•œë‹¤.
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-hhAAvZkW5hE/VmrBjehRo4I/AAAAAAAAETQ/qmmNSFsKla0/s1600/14.PNG)
 
-![enter image description here](http://club.koreadaily.com/pds_update/img_20120421200156.jpg)
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-r-brWCgosZI/VmrBjhtYa_I/AAAAAAAAETI/tTk7_GI7vIU/s1600/15.PNG)
+
+
+Get_board_detail(i)
+
+>- ÇÔ¼ö Á¤ÀÇ
+Def get_board_detail(index)
+
+>- ¼³¸í
+DB ¼­¹ö¿¡ ¿äÃ»ÇÑ index¿¡ (±Û ¹øÈ£) ´ëÀÀÇÏ´Â »ó¼¼ µð½ºÅ©¸³¼ÇÀ» ¿äÃ»ÇÏ´Â ÇÔ¼ö.(±Û¹øÈ£, Á¦¸ñ, ±Û¾´ÀÌ, ÃßÃµ¼ö, ³¯Â¥, º»¹®)
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-UZtepv1aBHg/VmrBjkLw_EI/AAAAAAAAETM/q5kTTpqj7vM/s1600/16.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-x77d0RaiUTg/VmrBkG_LGAI/AAAAAAAAETg/dhYPzXrJtlA/s1600/17.PNG)
+
+
+Convert_to_json()
+>- ÇÔ¼ö Á¤ÀÇ
+Def convert_to_json(raw_db_file)
+
+>- ¼³¸í
+¼­¹ö¿¡¼­ ¹Þ¾Æ¿Â DB¸¦ JsonÆÄÀÏ·Î º¯È¯ÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-Pkpl90Jr48U/VmrBkHxlNdI/AAAAAAAAETc/DMwHJbru_CE/s1600/18.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-JEymJHQohE8/VmrBkaN8d_I/AAAAAAAAETo/toPWCtlkMhs/s1600/19.PNG)
+
+
+Print_board_list()
+>- ÇÔ¼ö Á¤ÀÇ
+	Def print_board_list(Json_list)
+
+>- ¼³¸í
+°Ô½ÃÆÇ Á¤º¸¸¦ Ãâ·ÂÇÏ´Â ÇÔ¼ö. Á¦¸ñ, ÀÛ¼ºÀÚ, ³¯Â¥, ±Û ¹øÈ£¸¦ Ãâ·Â
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-DheRtks2HDk/VmrBlJCjGeI/AAAAAAAAETs/D6IBKniVMls/s1600/20.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-aC9CrtmYv8U/VmrBlPs4_-I/AAAAAAAAET4/-mZ7J5b4I6s/s1600/21.PNG)
+
+Print board_detail()
+>- ÇÔ¼ö Á¤ÀÇ
+	Def print_board_detail(json_list)
+
+>- ¼³¸í
+º¸°íÀÚ ÇÏ´Â ±ÛÀ» ¾ç½Ä¿¡ ¸ÂÃß¾î ¿¹»Ú°Ô Ãâ·ÂÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-fftwV21Ewxo/VmrBlpfKM0I/AAAAAAAAEUA/Rz794h4Lx4c/s1600/22.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-8avz-W-4Tfw/VmrBmFdomII/AAAAAAAAEUU/tmUgcScl6Ek/s1600/23.PNG)
+
+Route_to_other_modules()
+>- ÇÔ¼ö Á¤ÀÇ
+	Def Route_to_other_modules (url)
+
+>- ¼³¸í
+´Ù¸¥ ¸ðµâ·Î ¶ó¿ìÆÃ ÇÏ´Â ±â´ÉÀ» °¡Áø ÇÔ¼ö..
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-pChGEOTG2-g/VmrBl1oJuVI/AAAAAAAAEUQ/BNUiCvrm_2k/s1600/24.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-DsU81PyPN3I/VmrBmE-_0hI/AAAAAAAAEVA/5ZIAlnFihq0/s1600/25.PNG)
+
+Board_write()
+>- ÇÔ¼ö Á¤ÀÇ
+	Def board_write()
+
+>- ¼³¸í
+°Ô½ÃÆÇ¿¡ ±ÛÀ» ¿Ã¸®´Â ÇÔ¼ö. °Ô½ÃÆÇ¿¡ ±Û ÀÛ¼ºÀº È¸¿ø¸¸ ÇÒ ¼ö ÀÖ´Ù. ÇÔ¼öÀÇ °á°ú·Î DB¼­¹ö¿¡ »õ·Î¿î Á¤º¸¸¦ ¾÷µ¥ÀÌÆ®ÇÑ´Ù.
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-dCANsMuAKKw/VmrBmdlAEfI/AAAAAAAAEUY/GwfDSkQ1twI/s1600/26.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-F2_R1wOcIOI/VmrBmkAupOI/AAAAAAAAEUc/kuJ8AywN1XY/s1600/27.PNG)
+
+Edit_board()
+>- ÇÔ¼ö Á¤ÀÇ
+	Def edit_board(user_info)
+
+>- ¼³¸í
+°Ô½Ã±ÛÀ» ¼öÁ¤ÇÒ ¼ö ÀÖ´Â ±â´É. ±ÛÀÇ ¼öÁ¤Àº ±ÛÀÇ ÀÛ¼ºÀÚ¿Í ÇöÀç ·Î±×ÀÎÇÑ »ç¿ëÀÚ°¡ ÀÏÄ¡ÇÒ ¶§¸¸ ÇÔ¼ö¸¦ ½ÇÇà ÇÒ ¼ö ÀÖ´Ù.
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-yzKedNLA5cc/VmrBnK6UOcI/AAAAAAAAEUs/80BeMpCzDL4/s1600/28.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-qCxi9qB1-mk/VmrBnDgNf3I/AAAAAAAAEUo/9IMQkRuKkaM/s1600/29.PNG)
+
+#### <i class="icon-file"></i> ¸ÀÁý ¼Ò°³
+°ïÃæ À½½Ä ¸À ÁýÀ» ¼Ò°³ÇÒ ¼ö ÀÖ´Â ¸ðµâÀÌ´Ù. ÀÌ ¸ðµâÀº ¸À Áý¿¡ Á¤º¸¿¡ ´ëÇÑ ÀÏÁ¾ÀÇ °Ô½ÃÆÇÀ¸·Î º¼ ¼ö ÀÖÀ¸¸ç, ±ÛÀ» °Ô½ÃÇÒ ¼ö ÀÖ´Â ÁÖÃ¼´Â °í ·¹º§ À¯ÀúÀÌ´Ù. º» ¸ðµâÀº 2.2ÀýÀÎ ¹Ìµð¾î °Ô½ÃÆÇ°ú µ¿ÀÏÇÑ ±¸Á¶ÀÌ±â ¶§¹®¿¡ ±¸Á¶´Â »ý·«ÇÏ°í, ·¹º§ ¾÷ Ã¼°è¿¡ ´ëÇØ¼­ ¼³¸íÇÒ °ÍÀÌ´Ù.
+
+> **°³¿ä:**
+> 
+> ´ÙÀ½ ±×¸²Àº º» À¥»çÀÌÆ®ÀÇ ·¹º§ ¾÷ Ã¼°èÀÌ´Ù. ÃÑ 4°³ÀÇ ´Ü°è·Î ³ª´µ¸ç, ·Î±×ÀÎ È½¼ö ¹× °Ô½Ã ±Û °³¼ö, ÃßÃµ °³¼ö µî È°µ¿ Á¡¼ö¸¦ ¿Ã·Á °æÇèÄ¡¸¦ ¾ò°Ô µÈ´Ù. »ç¿ëÀÚÀÇ ÀÚ¹ßÀûÀÎ Âü¿©¸¦ À§ÇÑ ÀÏÁ¾ÀÇ µµ±¸ÀÌ´Ù.
+> 
+> **Figure 5 À¥»çÀÌÆ® ·¹º§¾÷ Ã¼°è**
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-i25gfOT7Nk8/Vmq-rwrqEPI/AAAAAAAAERc/2YA6lMOVs5k/s1600/4.PNG)
+> 
+> **°¢ ·¹º§ º° ¿ä±¸»çÇ× ¹× ±â´É**
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-HQdg1t7NJxM/VmrBnshavDI/AAAAAAAAEU8/heiVarUdRAE/s1600/30.PNG)
+
+> **°æÇèÄ¡ È¹µæ °æ·Î**
+> 
+> - ·Î±×ÀÎ½Ã 3Á¡ È¹µæ. 1ÀÏ 1È¸
+> - °Ô½ÃÆÇ¿¡ ±Û µî·Ï ½Ã 3Á¡ È¹µæ. 1ÀÏ 3È¸
+> - ´ñ±Û ÀÛ¼º½Ã 1Á¡ È¹µæ. 1ÀÏ 10È¸
+> - ÃßÃµ ¹ÞÀ» ½Ã 1Á¡ È¹µæ
+> - ±âÅ¸. ÀÌº¥Æ® Âü¿©½Ã Á¡¼ö ºÎ¿©
+
+#### <i class="icon-file"></i> ÃµÇÏÁ¦ÀÏ °ïÃæÀ½½Ä ´ëÈ¸
+ÃµÇÏÁ¦ÀÏ °ïÃæÀ½½Ä ´ëÈ¸´Â »ç¿ëÀÚÀÇ Âü¿©¸¦ À¯µµÇÏ¸ç, °ïÃæ À½½Ä¿¡ °üÇÑ È°¹ßÇÑ Á¤º¸±³·ù¸¦ ÃËÁø½ÃÅ°±â À§ÇÑ ¸ðµâÀÌ´Ù. Âü°¡ÀÚ´Â »çÀü¿¡ µî·ÏÀ» ¹ÞÀ¸¸ç µî·ÏÇÑ »ç¿ëÀÚ´Â °¢ÀÚÀÇ ·¹½ÃÇÇ¸¦ µî·ÏÇÏ°í ¼­·Î °Ü·é´Ù. ½ÂÀÚ´Â ÃßÃµ¼ö¸¦ ¸¹ÀÌ ¹ÞÀº À¯Àú°¡ ½Â¸®ÇÑ´Ù. 1À§ºÎÅÍ 3À§±îÁö ¼ö»óÀÚ¸¦ »Ì´Â´Ù. ÀÌ ¸ðµâ¿¡ µé¾î¿À°Ô µÇ¸é, ÇöÀç ÃßÃµ¼ö°¡ ¸¹Àº ¼ø¼­´ë·Î 1µîºÎÅÍ 3À§±îÁö¸¦ ½ºÅ©¸°¿¡¼­ º¼ ¼ö ÀÖ´Ù. ±×¸®°í ±× ¾Æ·¡ ·¹½ÃÇÇ¸¦ º¼ ¼ö ÀÖ´Â °Ô½ÃÆÇÀÌ ÀÖ´Ù. ·Î±×ÀÎ ÇÑ À¯Àú´Â ÃßÃµÀ» ÇÒ ¼ö ÀÖ´Ù. Áßº¹ ÃßÃµÀº ºÒ°¡´É ÇÏ´Ù.
+
+> **°³¿ä:**
+> 
+> ¾Æ·¡ ±×¸²Àº ÇöÀç ÆäÀÌÁö¿¡ µé¾î¿ÔÀ» ½Ã Ã³À½À¸·Î º¸¿©Áö´Â È­¸éÀÌ´Ù.
+> 
+> **Figure 6 °ïÃæ À½½Ä ´ëÈ¸ ¸ÞÀÎ**
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-6uvo8o8Dahg/Vmq-r4_OwTI/AAAAAAAAERk/9Alt0ngWqr0/s1600/5.PNG)
+
+**ÀÎÅÍÆäÀÌ½º:**
+
+Get_ranking_board()
+
+>- ÇÔ¼ö Á¤ÀÇ
+Def get_ranking_board()
+
+>- ¼³¸í
+DB ¼­¹ö¿¡¼­ ·©Å·º¸µå¿¡ »ç¿ëÇÒ µ¥ÀÌÅÍ¸¦ ¿äÃ»ÇÏ´Â ÇÔ¼ö. ´ëÈ¸ Âü°¡ÀÚµéÀÇ ±Û Á¤º¸¸¦ ¿äÃ»(¼øÀ§, ÀÌ¸§, Á¦¸ñ, ÃßÃµ¼ö)Á¤º¸¸¦ Æ÷ÇÔÇÏ´Â µ¥ÀÌÅÍ¸¦ ¹ÝÈ¯ÇÑ´Ù.
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-052zl0w_Slk/VmrBoffI6CI/AAAAAAAAEVI/fW_WuSv0vu8/s1600/31.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-xbTrGcG-3wk/VmrBotl8o4I/AAAAAAAAEVM/B3vcPlh-iG0/s1600/32.PNG)
+
+Convert_to_Json()
+
+>- ÇÔ¼ö Á¤ÀÇ
+Def convert_to_json(raw_db_file)
+
+>- ¼³¸í
+µ¥ÀÌÅÍº£ÀÌ½º¿¡¼­ °Ç³» ÁØ ÆÄÀÏÀ» JsonÆÄÀÏ·Î º¯È¯ÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-YnYvvGFWkpw/VmrBoqb3kwI/AAAAAAAAEVU/_pwFxK6cJTo/s1600/33.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-LGBf6hPiwqk/VmrBo_92uCI/AAAAAAAAEVQ/NxH8oJfd8Sg/s1600/34.PNG)
+
+Print_ranking_board()
+>- ÇÔ¼ö Á¤ÀÇ
+Def print_ranking_board(Json_list)
+
+>- ¼³¸í
+Á¡¼öÆÇ¿¡ 1µîºÎÅÍ 3µî±îÁö Ãâ·ÂÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-gDYrid0Bz9o/VmrBpPBFv8I/AAAAAAAAEVc/Hk3DzmtcSeE/s1600/35.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-pLwRNINked8/VmrBpXV8RgI/AAAAAAAAEVg/FbqGK19lcPg/s1600/36.PNG)
+
+print_recipe_detail()
+>- ÇÔ¼ö Á¤ÀÇ
+def print_recipe_lists(recipe_detail)
+
+>- ¼³¸í
+º¸°íÀÚ ÇÏ´Â Âü°¡ÀÚÀÇ ·¹½ÃÇÇ¸¦ ¾ç½Ä¿¡ ¸ÂÃß¾î ¿¹»Ú°Ô Ãâ·ÂÇÏ´Â ÇÔ¼ö. 
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-ssHwdHtoVQ4/VmrBpa8s4EI/AAAAAAAAEVo/LZL5Bw1CGQA/s1600/37.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-podkkYZBfjw/VmrBpmjvPuI/AAAAAAAAEWA/Zh4AUolk6m8/s1600/38.PNG)
+
+Route_other_modules(url)
+>- ÇÔ¼ö Á¤ÀÇ
+Def route_other_modules(url)
+
+>- ¼³¸í
+º¸°íÀÚ ÇÏ´Â Âü°¡ÀÚÀÇ ·¹½ÃÇÇ¸¦ ¾ç½Ä¿¡ ¸ÂÃß¾î ¿¹»Ú°Ô Ãâ·ÂÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-ys_L6pVOuyY/VmrBp3YUtDI/AAAAAAAAEV4/gvnAzwQY2JE/s1600/39.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://2.bp.blogspot.com/-wwZzbdPkfnw/VmrBqp9axNI/AAAAAAAAEWM/as5lGtw8yLU/s1600/40.PNG)
+
+recommand(index)
+>- ÇÔ¼ö Á¤ÀÇ
+Def recommend(index)
+
+>- ¼³¸í
+Å¬¸¯ ½Ã ÃßÃµ¼ö¸¦ ¿Ã¸®°í DB ¼­¹ö¿¡ ¹Ý¿µÇÏ´Â ÇÔ¼ö
+
+>- ÇÔ¼ö ÆÄ¶ó¹ÌÅÍ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-1gYtBT0Pp7s/VmrBqhpHqbI/AAAAAAAAEWU/nQYiNJu9bZQ/s1600/41.PNG)
+
+>- ¹ÝÈ¯Å¸ÀÔ
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-KPBYNqfFIHU/VmrBqg-ZF4I/AAAAAAAAEWQ/y7L0pen0yqo/s1600/42.PNG)
+
+----------
+
+Æò°¡ ¹× Æò°¡ °èÈ¹
+-------------
+
+#### <i class="icon-file"></i> Æò°¡ µµ±¸ ¹× ¹üÀ§
+º» ½Ã½ºÅÛÀÇ Æò°¡¸¦ À§ÇÏ¿© ¼¼ °¡Áö Æò°¡ ÁöÇ¥¸¦ ÀÌ¿ëÇÒ °èÈ¹ÀÌ´Ù. Ã¹ ¹øÂ°´Â ¼³¹®Á¶»ç¸¦ ½Ç½ÃÇÏ¿© ¼­ºñ½ºÀÇ ¸¸Á·µµ ¹× °³¼±Á¡ Á¶»ç. µÎ ¹øÂ°´Â WindowsÀÇ ½Ã½ºÅÛ ¼º´É ¸ð´ÏÅÍ¸µ ¼­ºñ½º µµ±¸¸¦ ÀÌ¿ëÇÏ¿© °¢ ³¯Â¥ º°, ÆäÀÌÁö ·¹ÀÌ¾Æ¿ô µîÀÇ Ç×¸ñÀ¸·Î Æò°¡¸¦ ½Ç½Ã, ¸¶Áö¸·À¸·Î wave¶ó´Â ÅøÀ» ÀÌ¿ë, À¥ Á¢±Ù¼ºÀÇ Å¸´ç¼ºÀ» Á¶»çÇÒ °ÍÀÌ´Ù.
+
+
+#### <i class="icon-file"></i> ¼³¹® Á¶»ç
+¼³¹®Á¶»ç ¼öÇà ÈÄ ¼³¹®Á¶»ç °á°ú¿Í ÇÔ²² Á¢¼ÓÀÚ¼ö ÃøÁ¤À» ÅëÇØ °á°ú¹°À» ±×·¡ÇÁ·Î »êÁ¤ÇÒ °èÈ¹ÀÌ´Ù. ¾Æ·¡´Â ¼³¹®Á¶»ç Ç×¸ñÀÌ´Ù.
+> - Q. ¿ì¸® »çÀÌÆ®¸¦ »ç¿ëÇØ º» ÈÄ °ïÃæ¿¡ ´ëÇÑ ÀÎ½ÄÀÌ °³¼±µÇ¾ú½À´Ï±î? (1~10Á¡)
+--> º»·¡ ¸ñÀû¿¡ ´ëÇÑ ´Þ¼º ¿©ºÎ¸¦ ¾Ë±â À§ÇØ
+> - Q. ¿ì¸® »çÀÌÆ®¿¡¼­ °ïÃæ¿¡ ´ëÇÑ Á¤º¸¸¦ °Ë»öÇÏ±â¿¡ Æí¸®ÇÏ½Ê´Ï±î? (1~10Á¡)
+--> »ç¿ëÀÚ¿¡°Ô Á¦°øÇØÁÖ°íÀÚ ÇÏ´Â ¸ÞÀÎ ±â´ÉÀÌ Á¦´ë·Î ÀÛµ¿ÇÏ´ÂÁö º¸±â À§ÇØ
+> - Q. ¿ì¸® »çÀÌÆ®ÀÇ ÀÎÅÍÆäÀÌ½º¿¡ ´ëÇÑ ÆíÀÇ¼º Á¤µµ¸¦ Á¡¼ö·Î ¸Å±ä´Ù¸é ¸î Á¡ Á¤µµ¸¦ ÁÖ½Ã°Ú½À´Ï±î? (1~10Á¡)
+--> UI¿ë Áú¹®
+> - Q. ÇöÀç »ç¿ë ÁßÀÎ ºê¶ó¿ìÀúÀÇ Á¾·ù´Â ¹«¾ùÀÔ´Ï±î? (Å©·Ò,IE,½ºÀ®,ÆÄÀÌ¾îÆø½º,±âÅ¸)
+--> ºê¶ó¿ìÀú Áö¿ø ¿©ºÎ °áÁ¤¿¡ µµ¿òÀÌ µÊ
+> - Q. ¸ð¹ÙÀÏ·Î º» À¥ ÆäÀÌÁö¿¡ Á¢¼ÓÇßÀ» ¶§¿¡ ´ëÇÑ ÆíÀÇ¼º Á¤µµ¸¦ Á¡¼ö·Î ¸Å±ä´Ù¸é ¸î Á¡ Á¤µµ¸¦ ÁÖ½Ã°Ú½À´Ï±î? (1~10Á¡)
+--> ¹ÝÀÀÇü À¥ ÆäÀÌÁö ±¸¼º ¿©ºÎ °áÁ¤¿¡ µµ¿òÀÌ µÊ
+> - Q. [Àå¾ÖÀÎ¿ë] º» À¥ ÆäÀÌÁö¸¦ ÀÌ¿ëÇÏ±â¿¡ Æí¸®ÇÑ Á¤µµ¸¦ Á¡¼ö·Î ¸Å°ÜÁÖ½Ê½Ã¿À. (1~10Á¡)
+--> À¥ Á¢±Ù¼º Ç¥ÁØ ÁØ¼ö ´ëÇÑ ½ÇÁ¦ »ç¿ëÀÚ Ã¼°¨ ¹ÝÀÀ
+
+#### <i class="icon-file"></i> windows ½Ã½ºÅÛ ¼º´É ¸ð´ÏÅÍ¸µ
+
+Windows ½Ã½ºÅÛ ¼º´É ¸ð´ÏÅÍ¸µ µµ±¸¸¦ ÀÌ¿ëÇÏ¿© ¾Æ·¡ÀÇ Ç×¸ñÀ» °Ë»çÇÑ´Ù.
+> - ÀÎÅÍÆäÀÌ½ºº° Á¢¼ÓÀÚ¼ö(ÇÑ ´Þ)
+> - ÆäÀÌÁö ·¹ÀÌ¾Æ¿ô º° Á¢¼ÓÀÚ¼ö(ÇÑ ´Þ)
+> - Áö¿ø °¡´ÉÇÑ ºê¶ó¿ìÀúÀÇ ¹üÀ§¿¡ µû¸¥ Á¢¼ÓÀÚ¼ö
+> - ¹ÝÀÀ Çü À¥ Áö¿ø °¡´É ¿©ºÎ¿¡ µû¸¥ Á¢¼ÓÀÚ¼ö
+> - À¥ ¼­¹ö ¸®¼Ò½º ÆÄ¾ÇÀ» À§ÇÏ¿© ¼º´É ¸ð´ÏÅÍ¸µÀ» »ç¿ë, ¼öÇà °á°ú´Â ¾Æ·¡¿Í °°´Ù.
+
+¼º´É¸ð´ÏÅÍ¸µ1
+![ÅØ½ºÆ®](http://3.bp.blogspot.com/-pkgZ9_ng0II/Vmq-saQfklI/AAAAAAAAER4/qEvPl0MlEBI/s1600/7.PNG)
+
+
+Á¢¼ÓÀÚ¼ö ÃßÁ¤Ä¡
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-iK5OSDv9QGs/Vmq-suviB_I/AAAAAAAAER0/3NFygXtAENU/s1600/8.png)
+
+½Ã°£´ëº° Á¢¼ÓÀÚ¼ö
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-b-xqGYme9j8/Vmq-tEZwhII/AAAAAAAAESA/yIXz4SkZNhM/s1600/9.jpg)
+
+ÇâÈÄ Á¢¼ÓÀÚ¼ö ÃßÁ¤
+![ÅØ½ºÆ®](http://4.bp.blogspot.com/-pplOjHJjJ_s/Vmq-q6IbZpI/AAAAAAAAERE/P2iWh8HPWmY/s1600/10.png)
+
+
+#### <i class="icon-file"></i> Wave Åø
+
+À¥ÀÇ Á¢±Ù¼ºÀ» Æò°¡ÇÏ±â À§ÇÑ µµ±¸·Î waveÅøÀ» ÀÌ¿ëÇÑ´Ù. waveÅøÀ» ÀÌ¿ëÇÏ¿© ´ÙÀ½ÀÇ Ç×¸ñµéÀ» °Ë»çÇÒ ¿¹Á¤ÀÌ´Ù.
+> -	´ëÃ¼ÅØ½ºÆ® Á¦°ø
+-	Á¦¸ñÁ¦°ø
+-	±âº»¾ð¾î ¸í½Ã
+-	»ç¿ëÀÚ ¿ä±¸¿¡ µû¸¥ »õÃ¢ ¿­±â
+-	·¹ÀÌºí Á¦°ø
+-	¸¶Å©¾÷ ¿À·ù ¹æÁö
+
+
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-H2Kl_lwlqAw/Vmq-q2JxRNI/AAAAAAAAERI/FIS_f2bBebE/s1600/11.png)
+
+À¥ Á¢±Ù¼º ¿¬±¸¼Ò¿¡¼­ ¼öÇàÇÑ À¥ Á¢±Ù¼º ÀÚµ¿ Á¡°Ë º¸°í¼­
+![ÅØ½ºÆ®](http://1.bp.blogspot.com/-yoJTi1mZdjQ/Vmq-rFn002I/AAAAAAAAERM/3MboiUZKgSk/s1600/12.png)
+
+
+#### <i class="icon-file"></i> ±â´ëÈ¿°úÀÇ Å¸´ç¼º ¹× ÇÑ°èÁ¡
+
+> **±â´ë È¿°úÀÇ Å¸´ç¼º**
+À¥ ÆäÀÌÁöÀÇ ÀÌ¿ë¼º Ãø¸é¿¡¼­´Â (Àå¾ÖÀÎµéµµ ¿øÇÏ´Â Á¤º¸¸¦ ¾òÀ» ¼ö ÀÖÀ» Á¤µµÀÇ À¥ Á¢±Ù¼º Ç¥ÁØÀ» ¸¸Á·ÇÏ¸ç, ¼³¹®Á¶»ç°á°ú µî¿¡ ÀÇÇØ) »ç¶÷µéÀÌ Å« ºÒÆíÀ» ´À³¢Áö ¾Ê´Â´Ù°í ÇÒ ¼ö ÀÖÀ¸¸ç È«º¸ÀûÀÎ Ãø¸é¿¡¼­µµ ÆäÀÌÁö·Î Á¢¼ÓÇÏ´Â active »ç¿ëÀÚ ¼ö°¡ ¸¹´Ù´Â °Í°ú ÇÑ±¹¾î·Î Áö¿øµÇ´Â °ïÃæ À½½Ä À¥ »çÀÌÆ®·Î´Â ÃÖÃÊ¶ó´Â Á¡¿¡¼­ ´çÃÊ ¿øÇß´ø È«º¸ È¿°ú¸¦ ´Þ¼ºÇÒ °ÍÀ¸·Î »ý°¢µÈ´Ù.
+
+> **¾ÆÀÌµð¾î¿Í ±â´ëµÇ´Â È¿°úÀÇ ÇÑ°èÁ¡**
+´Ü¼øÈ÷ ÆäÀÌÁö¸¦ ±â¼úÀûÀ¸·Î Àß ±¸ÇöÇÏ´Â °Í°ú´Â º°°³·Î ¸¶ÄÉÆÃÀû ¿ä¼Ò°¡ ¹Ýµå½Ã µé¾î°¡¾ß Á¤¸»·Î ¿øÇÏ´Â ¸ñÀûÀÎ ¡®°ïÃæ¿¡ ´ëÇÑ ÀÎ½Ä °³¼±À» À§ÇÑ È«º¸¡¯¿¡ ±â¿©ÇÒ ¼ö ÀÖÀ» °ÍÀ¸·Î º¸ÀÎ´Ù. Áï µðÁöÅÐ¸¶ÄÉÆÃ°úÀÇ °áÇÕÀÇ ÇÊ¿ä¼ºÀÌ Á¦±âµÊ. ÇâÈÄ SNS¿ÍÀÇ ¿¬µ¿ ±â´É µîÀ» Ãß°¡ÇÏ¿© º¸¿ÏÇÒ ¼ö ÀÖ´Ù.
